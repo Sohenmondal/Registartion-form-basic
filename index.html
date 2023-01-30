@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registartion form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="results.html" method="GET">
+    <div class="space" id="space-main">
+        <div>
+            <label for="name"><b>Name: </b></label>
+                <input name="Name" id="name" type="text" placeholder="Enter the name" size="47px" required>    
+        </div>
+        <br>
+        <div>
+            <label for="email"><b>Email: </b></label>
+            <input type="email" id="email" name="Email: " placeholder="Enter gmail" size="48px" required>
+        </div>
+        <br>
+        <div>
+            <label for="password"><b>Password: </b></label>
+            <input type="password" id="password" name="Password: " required placeholder="Enter password" size="43px">
+        </div>
+        <br>
+        <div>
+            <label for="date"><b>Date: </b></label>
+            <input type="date" id="date" name="Date: " required>
+        </div>
+        <br>
+        <div>
+            <label for="age"><b>Age: </b></label>
+            <input type="number" id="number" name="Age: " min="1" max="100">
+        </div>
+        <br>
+        <div class="gender"><b>Gender: </b>
+            <label for="male">Male  </label>
+            <input type="radio" name="Gender: " id="male" value="Male">
+            <label>Female</label> 
+            <input type="radio" id="gender" name="Gender: " id="Female" value="female">
+        </div>
+        <br>
+        <div>
+            <label for="roll"><b>Registartion no: </b></label>
+            <input type="text" id="roll" name="Roll" placeholder="Enter Registration no" size="37px">
+        </div>
+        <br>
+        <div>
+            <label for="qualify"><b>Qualification :  </b></label>
+            <select name="Qualification: " id="qualify">
+                <option value="None">-----</option>
+                <option value="Btech">Btech</option>
+                <option value="BE">BE</option>
+                <option value="M-Tech">Mtech</option>
+                <option value="BCA">BCA</option>
+                <option value="MCA">MCA</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="address"><b>Address: </b></label>
+        </div>
+        <div>
+            <textarea name="Address: " id="address" cols="57px" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <i>Have you applied for the same before: </i>
+            <label for="applied">YES</label>
+            <input type="radio" id="applied" name="Applied: " value="Yes">
+            <label for="applied">NO</label>
+            <input type="radio" id="applied"
+            name="Applied: ">
+        </div>
+        <br>
+        <div class="buttons">
+            <input type="reset" value="RESET" id="reset">
+            <input type="submit" value="SUBMIT" id="submit" >
+        </div>   
+    </div>
+    </form>
+</body>
+</html>

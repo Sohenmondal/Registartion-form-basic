@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: Raleway;
+}
+
+body{
+    text-align: left;
+    border: 5px solid ;
+    border-radius: 2%;
+    background-color: rgba(12, 12, 12, 0);
+}
+
+h2{
+    padding: 25px;
+    margin: initial;
+    background-color: rgb(77, 31, 77);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.space{
+    padding: 20px;
+    background-color: white;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DFDFDF;
+    background: linear-gradient(45deg, black, transparent);
+}
+
+input{
+    padding: 10px;
+}
+
+.gender{
+    justify-content: center;
+}
+
+.gender input{
+    vertical-align: middle;
+}
+
+#reset{
+    background: black;
+    color: white;
+}
+
+#submit{
+    background: black;
+    color: white;
+    float: right;
+}
+
